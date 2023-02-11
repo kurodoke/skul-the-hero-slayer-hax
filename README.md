@@ -1,8 +1,22 @@
 # important!
 
-all of this things is using Minhook and if you wanna try using this, make sure u had Minhook installed and link with this solution.
+**all of this things is using Minhook and if you wanna try using this, make sure you had Minhook installed and link it with this solution.**
 
-the feature is just no damage, no cooldown skill and unlimited dash. 
+`just for someone who is editing the code`
+
+
+# feature
+
+the feature is just 
+
+  - no damage (f1 key)
+  - no cooldown skill (f2 key)
+  - unlimited dash. (f3 key)
+  
+just change it in the code if you wanna change the hotkeys
+
+or update the cheat list i you want to
+
 
 # no update
 
