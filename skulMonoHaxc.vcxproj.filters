@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{43f87fc0-c121-436d-bc9e-4282abd1e3b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheats">
+      <UniqueIdentifier>{18dd7467-ab9e-4445-8f99-bfe2f2686791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\helpers">
+      <UniqueIdentifier>{ab2b0bac-3a2c-4ddd-aa45-92f29d7586f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\hook.h">
+      <Filter>Source Files\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\mono.h">
+      <Filter>Source Files\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="cheats\setHealth.h">
+      <Filter>Source Files\cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Console.h">
+      <Filter>Source Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Application.h">
+      <Filter>Source Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="cheats\noCooldown.h">
+      <Filter>Source Files\cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="cheats\dashCooldown.h">
+      <Filter>Source Files\cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="cheats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Source Files\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntryPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
